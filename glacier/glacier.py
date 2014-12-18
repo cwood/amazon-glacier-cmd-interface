@@ -494,8 +494,8 @@ def main():
         help="Name of the file to log messages to.", metavar="FILE")
     conf_parser.add_argument('--logtostdout', action='store_true',
         help='Send log messages to stdout instead of the config file.')
-    conf_parser.add_argumnet(
-        '-v', '--version', action='version', version="0.2dev')
+    conf_parser.add_argument(
+        '-v', '--version', action='version', version="0.2dev")
 
     args, remaining_argv = conf_parser.parse_known_args()
 
